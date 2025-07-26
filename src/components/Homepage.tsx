@@ -18,11 +18,8 @@ export default function Homepage() {
           <Link href="/" className="list-item text-blue-500">
             Homepage
           </Link>
-          <Link href="/users/Gabe" className="list-item text-blue-500">
-            Gabe's User Page
-          </Link>
-          <Link href="/users/Ben" className="list-item text-blue-500">
-            Ben's User Page
+          <Link href="/users/EE" className="list-item text-blue-500">
+            EE
           </Link>
         </ul>
 
@@ -31,11 +28,8 @@ export default function Homepage() {
           <a href="/api/hello" className="list-item text-blue-500">
             /api/hello
           </a>
-          <a href="/api/users?name=Gabe" className="list-item text-blue-500">
-            /api/users?name=Gabe
-          </a>
-          <a href="/api/users?name=Ben" className="list-item text-blue-500">
-            /api/users?name=Ben
+          <a href="/api/users?name=E" className="list-item text-blue-500">
+            /api/users?name=E
           </a>
         </ul>
       </div>
